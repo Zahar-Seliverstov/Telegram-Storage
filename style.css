@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(45, 62, 86)
+}
+header{
+    color: rgb(231, 231, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(45, 62, 86)
+}
+
+.add {
+    border-radius: 13px;
+    border: none;
+    height: 49px;
+    width: 130px;
+
+    background-color: rgb(219, 219, 219);
+    color: rgb(41, 51, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+.add:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.add:active {
+    background-color: rgb(41, 51, 65);
+}
+
+
+
+.panel-files {
+    background-color: rgb(119, 133, 152);
+    height: 100%;
+    width: 500px;
+    padding: 20px;
+}
+
+.catalog-files>ul>button {
+    border-radius: 6px;
+    border: none;
+    height: 45px;
+    width: 120px;
+
+    background-color: rgb(66, 88, 108);
+    color: rgb(204, 204, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 2px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.catalog-files>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(48, 66, 90);
+    border-radius: 10px;
+}
+
+.catalog-files>ul>button:hover {
+    background-color: rgb(42, 58, 82);
+}
+
+.catalog-files>ul>button:active {
+    background-color: rgb(37, 46, 58);
+}
